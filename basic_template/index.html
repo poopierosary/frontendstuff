@@ -14,11 +14,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
 </head>
-<body>
+<body id="index" class="home">
 	<header id="banner" class="body">
-		<h1>Basic Template 
-			<strong>Created by Kevin Saelee</strong>
+		<h1>
+			<a href="#">Basic Template <strong>Created by Kevin Saelee <del>2017</del><ins>2018</ins></strong>
+			</a>
 		</h1>
+
 		<nav>
 			<ul>
 				<li class="active"><a href="#">Home</a></li>
@@ -45,71 +47,90 @@
 	</aside>
 
 	<section id="content" class="body">
-		<ol>
-			<li><article>
+		<ol id="blog-list" class="hfeed">
+			<li><article class="blog">
 				<header>
 					<h2><a href="">Some Title</a></h2>
 				</header>
-				<footer class="post-info">
+				<footer class="blog-info">
 					<abbr class="published-date" title="2018-15-01T14:07:00-07:00">
 						15th January 2018
 					</abbr>
-					<address>
+					<address class="vcard author">
 							Example <a href="">Kevin Saelee</a>
 					</address>
 				</footer><!-- /.post-info footer-->
-				<div class="">
+				<div class="blog-title">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque venenatis nunc vitae libero iaculis elementum. Nullam et justo <a href="#">non sapien</a> dapibus blandit nec et leo. Ut ut malesuada tellus.
 				</div><!-- /place mark--> 
 			</article></li>
-			<li><article>
-				...
+			<li><article class="blog">
+				<header>
+					<h2><a href="">Some Title</a></h2>
+				</header>
+				<footer class="blog-info">
+					<abbr class="published-date" title="2018-15-01T14:07:00-07:00">
+						16th January 2018
+					</abbr>
+					<address class="vcard author">
+							Example <a href="">Kevin Saelee</a>
+					</address>
+				</footer><!-- /.post-info footer-->
+				<div class="blog-title">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque venenatis nunc vitae libero iaculis elementum. Nullam et justo <a href="#">non sapien</a> dapibus blandit nec et leo. Ut ut malesuada tellus.
+				</div><!-- /place mark--> 
 			</article></li>
-			<li><article>
+			<li><article class="blog">
 				...
 			</article></li>
 		</ol><!--end of #list or something--> 
 	</section><!--end of #content section--> 
 
-	<section id="extra-content" class="body">
+	<section id="extras" class="body">
 		<div class="blob">
 			<h2>BLOB</h2>
 			<ul>
-				<li><a href=""></a></li>
-				<li><a href=""></a></li>
-				<li><a href=""></a></li>
-				<li><a href=""></a></li>
-				<li><a href=""></a></li>
-				<li><a href=""></a></li>
-				<li><a href=""></a></li>
-				<li><a href=""></a></li>
-				<li><a href=""></a></li>
-				<li><a href=""></a></li>
-				<li><a href=""></a></li>
-				<li><a href=""></a></li>
-				<li><a href=""></a></li>
-				<li><a href=""></a></li>
-				<li><a href=""></a></li>
-				<li><a href=""></a></li>
-				<li><a href=""></a></li>
-				<li><a href=""></a></li>
+				<li><a href="" rel="external">Lorem</a></li>
+				<li><a href="" rel="external">ipsum it amet</a></li>
+
+				<li><a href="" rel="external">sit amet</a></li>
+				<li><a href="" rel="external">sit amet</a></li>
+				<li><a href="" rel="external">sit amet</a></li>
+
+				<li><a href="" rel="external">olor sit amet</a></li>
+				<li><a href="" rel="external">olor sit amet</a></li>
+				<li><a href="" rel="external">olor sit amet</a></li>
+				
+				<li><a href="" rel="external">olor sit amet</a></li>
+				<li><a href="" rel="external">olor sit amet</a></li>
+				<li><a href="" rel="external">olor sit amet</a></li>
+
+				<li><a href="" rel="external">olor sit amet</a></li>
+				<li><a href="" rel="external">olor sit amet</a></li>
+				<li><a href="" rel="external">olor sit amet</a></li>
+
+				<li><a href="" rel="external">olor sit amet</a></li>
+				<li><a href="" rel="external">olor sit amet</a></li>
+				<li><a href="" rel="external">olor sit amet</a></li>
+
+				<li><a href="" rel="external">olor sit amet</a></li>
 			</ul>
 		</div><!--end of #blob-->
 		<div class="social-media">
 			<h2>Social Media</h2>
 			<ul>
-				<li><a href=""></a></li>
-				<li><a href=""></a></li>
-				<li><a href=""></a></li>
-				<li><a href=""></a></li>
-				<li><a href=""></a></li>
-				<li><a href=""></a></li>
+				<li><a href="">Test</a></li>
+				<li><a href="">Test</a></li>
+				<li><a href="">Test</a></li>
+				<li><a href="">Test</a></li>
+				<li><a href="">Test</a></li>
+				<li><a href="">Test</a></li>
 			</ul>
 		</div><!--end of #social-media -->
 	</section><!--end of #extra-content section-->
 
-	<footer id="footer-info" class="body">
-		<address id="footer-about" class="vcard-body">
+	<footer id="footerinfo" class="body">
+		<address id="footerabout" class="vcard body">
 			<span class="primary">
 				<strong><a href="">Example</a></strong>
 				<span class="role">Example</span>
