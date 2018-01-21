@@ -1,0 +1,64 @@
+/*Global Stlying*/
+
+body{
+	background: #F5F4EF;
+	color: #000305;
+	font-size: 14px;
+	font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, Sans-Serif;
+	line-height: 1.429;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+
+h2 { font-size: 22px; }
+h3 { font-size: 20px; }
+h4 { font-size: 18px; }
+h5 { font-size: 16px; }
+h6 { font-size: 14px; }
+
+h2, h3, h4, h5. h6 {
+	font-weight: 400;
+	line-height: 1.1;
+	margin-bottom: 11px;
+}
+
+a { outline: 0; }
+a img {
+	border: 0px;
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: #C74350;
+	padding: 0 1px;
+	text-decoration: underline;
+}
+
+a:hover, a:active {
+	background-color: #C74350;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px #333;
+}
+
+p { margin-bottom: 16px; }
+* p:last-child { margin-bottom: 0; }
+
+strong, b { font-weight: bold; }
+em, i { font-style: italic; }
+
+::-moz-selection { 
+	background: #F6CF74; 
+	color: #fff;
+};
+
+::selection {
+	background: #F6CF74; 
+	color: #fff;
+}
+
+ul {
+	list-style: outside disc;
+	margin: 14px 0px 21px 21px;
+}
