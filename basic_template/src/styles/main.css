@@ -6,3 +6,6 @@
 */
 @import 'index/reset.css';
 @import 'index/global.css';
+@import 'index/featured.css';
+@import 'index/blog.css';
+@import 'index/link.css';

@@ -1,0 +1,64 @@
+/*Blog styling*/
+
+#content {
+	background: #fff;
+	margin-bottom: 28px;
+	overflow: hidden;
+	padding: 20px 20px;
+	width: 760px;
+
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+.blog {
+	border-bottom: 1px solid #eee;
+	padding: 21px 0px;
+}
+
+li:last-child .blog, #content > .blog {
+	border: 0;
+	margin: 0;
+}
+
+#content > .blog { padding: 14px 0px; }
+
+.blog-title {
+	font-size: 20px;
+	margin-bottom: 0px;
+}
+
+.blog .blog-info * { font-style: none; }
+
+.blog footer { margin-bottom: 28px; }
+
+.blog footer address { display: inline; }
+#blog-list footer address {display: block;}
+
+#blog-list { 
+	list-style: none;
+	margin: 0px;
+}
+
+#blog-list .blog {
+	padding-left: 200px;
+	position: relative;
+}
+
+#blog-list footer {
+	left: 10px;
+	position: absolute;
+	top: 21px;
+	width: 190px;
+}
+
+#blog-list .blog:hover {
+	background: #C64350;
+	color: #fff;
+}
+
+#blog-list .blog:hover a:link, #blog-list .blog:hover a:visited {
+	color: #F6CF74;
+	text-shadow: 1px 1px 1px #333;
+}
