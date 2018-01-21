@@ -9,18 +9,21 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- Link Files to css and css libs if being use-->
-
+	<link rel="stylesheet" type="text/css" href="src/styles/main.css">
+	<script type="text/javascript" src="src/assets/libs/scripts/jquery.js"></script>
+	<script type="text/javascript" src="src/assets/libs/scripts/bootstrap.min.js"></script>
+	<script type="text/javascript" src="src/scripts/cal.js"></script>
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
 </head>
-<body>
-	<form>
-		<div>
-			<table>
+<body class="background">
+	<form name="form">
+		<div class="control">
+			<table id="calulator">
 				<tr>
 					<td><input type="reset" name="button" value="C"></td>
-					<td><input type="text" name="" class="form-control" placeholder="0"></td>
+					<td><input type="text" name="txtval" class="form-control" placeholder="0"></td>
 				</tr>
 
 				<tr>

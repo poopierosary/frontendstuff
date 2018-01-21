@@ -1,0 +1,39 @@
+.background{
+	background-color: #5297f9;
+}
+
+input[type=button]{
+	padding: 0px;
+	border-bottom: 4px solid #31138b;
+	height: 50px;
+	width: 80px;
+}
+
+input[type=reset]{
+	padding: 0px;
+	border-bottom: 4px solid #31138b;
+	height: 50px;
+	width: 80px;
+}
+
+input[type=text]{
+	text-align: right;
+	height: 50px;
+	width: 240px;
+}
+
+.control {
+	margin: 0px auto;
+	height: 350px;
+	width: 367px;
+	background-color: #7d6ca7;
+	border-radius: 12px;
+	border-bottom: 4px solid #31138b;
+}
+
+#calculator {
+	border: 0;
+	height: 300px;
+	width: 300px;
+	align: center;
+}
