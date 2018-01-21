@@ -39,13 +39,11 @@ td:active{
 }
 
 td{
-	background: #262626;
+	background: #2143a5;
 	padding: 10px;
 	width: 30px;
-	height: 60px;
+	/*height: 60px;*/
 	text-align: center;
 	border-radius: 10px;
-	box-shadow: 0.01px 5px 0.2px #262626, inset 0.1px 0.10px 1px white;
+	box-shadow: 0.01px 5px 0.2px #000000, inset 0.1px 0.10px 1px white;
 }
-
-style="color:#5886a6"

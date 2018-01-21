@@ -6,7 +6,7 @@
 	<meta http-equiv="x-ua-compatible" content="IE=11" charset="utf-8">
 	<title>Keyboard</title>
 	<meta name="description" content="">
-	<!-- <meta name="viewport" content="width=device-width, intial-scale=1"> -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 
 	<!-- Link Files to css and css libs if being use-->
 	<link rel="stylesheet" type="text/css" href="src/styles/main.css">
@@ -20,18 +20,18 @@
 			<tr>
 				<!-- start of F keys -->
 				<td><a href="">Esc</a></td>
-				<td><a href="">F1<br><span>◀</span></a></td>
-				<td><a href="">F2<br><span>◀</span></a></td>
-				<td><a href="">F3<br><span>◀</span></a></td>
-				<td><a href="">F4<br><span>◀</span></a></td>
-				<td><a href="">F5<br><span>◀</span></a></td>
-				<td><a href="">F6<br><span>◀</span></a></td>
-				<td><a href="">F7<br><span>◀</span></a></td>
-				<td><a href="">F8<br><span>◀</span></a></td>
-				<td><a href="">F9<br><span>◀</span></a></td>
-				<td><a href="">F10<br><span>◀</span></a></td>
-				<td><a href="">F11<br><span>◀</span></a></td>
-				<td><a href="">F12<br><span>◀</span></a></td>
+				<td><a href="">F1<br><span id="F-keys">◀</span></a></td>
+				<td><a href="">F2<br><span id="F-keys">◀</span></a></td>
+				<td><a href="">F3<br><span id="F-keys">◀</span></a></td>
+				<td><a href="">F4<br><span id="F-keys">◀</span></a></td>
+				<td><a href="">F5<br><span id="F-keys">◀</span></a></td>
+				<td><a href="">F6<br><span id="F-keys">◀</span></a></td>
+				<td><a href="">F7<br><span id="F-keys">◀</span></a></td>
+				<td><a href="">F8<br><span id="F-keys">◀</span></a></td>
+				<td><a href="">F9<br><span id="F-keys">◀</span></a></td>
+				<td><a href="">F10<br><span id="F-keys">◀</span></a></td>
+				<td><a href="">F11<br><span id="F-keys">◀</span></a></td>
+				<td><a href="">F12<br><span id="F-keys">◀</span></a></td>
 				<!-- end of F keys -->
 
 				<!-- Start of Three Keys -->
@@ -55,12 +55,12 @@
 				<td><a href="">0<br><span>)</span></a></td>
 				<td><a href="">_<br><span>-</span></a></td>
 				<td><a href="">+<br><span>=</span></a></td>
-				<td><a href="">BackSpace</a></td>
+				<td colspan="2"><a href="">BackSpace</a></td>
 				<td><a href="">Home</a></td>
 			</tr><!-- end of Num keys top layer -->
 
 			<tr><!-- start of second layer keys-->
-				<td><a href="">Tab</a></td>
+				<td colspan="2"><a href="">Tab</a></td>
 				<td><a href="">Q</a></td>
 				<td><a href="">W</a></td>
 				<td><a href="">E</a></td>
@@ -78,7 +78,7 @@
 			</tr><!-- end of second layer keys-->
 
 			<tr><!-- start of third layer keys-->
-				<td><a href="">Caps<br>Lock</a></td>
+				<td colspan="2"><a href="">Caps<br>Lock</a></td>
 				<td><a href="">A</a></td>
 				<td><a href="">S</a></td>
 				<td><a href="">D</a></td>
@@ -90,12 +90,12 @@
 				<td><a href="">L</a></td>
 				<td><a href="">:<br>;</a></td>
 				<td><a href="">"<br>'</a></td>
-				<td><a href="">Enter</a></td>
+				<td colspan="2"><a href="">Enter</a></td>
 				<td><a href="">PgDn</a></td>
 			</tr><!-- end of third layer keys-->
 
 			<tr>
-				<td><a href="">Shift</a></td>
+				<td colspan="3"><a href="">Shift</a></td>
 				<td><a href="">Z</a></td>
 				<td><a href="">X</a></td>
 				<td><a href="">C</a></td>
@@ -112,10 +112,10 @@
 			</tr>
 
 			<tr>
-				<td><a href="">Fn</a></td>
+				<td colspan="2"><a href="">Fn</a></td>
 				<td><a href=""></a></td>
 				<td><a href="">Alt</a></td>
-				<td><a href="">Space</a></td>
+				<td colspan="4"><a href="">Space</a></td>
 				<td><a href=""></a></td>
 				<td><a href=""></a></td>
 				<td><a href="">Ctrl</a></td>
@@ -125,9 +125,9 @@
 			</tr>
 		</table>
 
-		<table><!-- start of Num Pad -->
+		<table class="numPad"><!-- start of Num Pad -->
 			<tr>
-				<td>Keyboard in HTML/CSS<a href=""></a></td>
+				<td colspan="4">Keyboard in HTML/CSS<a href=""></a></td>
 			</tr>
 			<tr>
 				<td><a href="">Num<br>Lock</a></td>
@@ -139,6 +139,7 @@
 				<td><a href="">7<br><span>Home</span></a></td>
 				<td><a href="">8<br><span></span></a></td>
 				<td><a href="">9<br><span>PgUp</span></a></td>
+				<td rowspan="2"><a href="">+</a></td>
 			</tr>
 			<tr>
 				<td><a href="">4<br><span></span></a></td>
@@ -149,10 +150,10 @@
 				<td><a href="">1<br><span>End</span></a></td>
 				<td><a href="">2<br><span></span></a></td>
 				<td><a href="">3<br><span>PgDn</span></a></td>
-				<td><a href="">Enter</a></td>
+				<td rowspan="2"><a href="">Enter</a></td>
 			</tr>
 			<tr>
-				<td><a href="">0<br><span>Ins</span></a></td>
+				<td colspan="2"><a href="">0<br><span>Ins</span></a></td>
 				<td><a href="">.<br><span>Del</span></a></td>
 			</tr>
 		</table>
