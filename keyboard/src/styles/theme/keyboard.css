@@ -1,3 +1,7 @@
+.numPad {
+	float: right;
+}
+
 #F-keys {
 	color: #5886a6;
 	margin-left: 5px;
@@ -5,6 +9,12 @@
 	position: absolute;
 }
 
-.numPad {
-	float: right;
+#Fnkey{
+	color: #5886a6;
+	padding-right: 40px;
+}
+
+
+#windowsKey{
+	font-family: wingdings;
 }
