@@ -140,6 +140,7 @@ img.left figure.left {
 	margin: 8px 2px 8px 2px;
 	text-decoration: none;
 	width: 427px;
+	pointer-events: none;
 }
 
 #banner h1 a:hover, #banner h1 a:active {
