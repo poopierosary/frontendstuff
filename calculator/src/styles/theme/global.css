@@ -32,8 +32,11 @@ input[type=text]{
 }
 
 #calculator {
+	margin-top: 20px;
+	margin-left: 20px;
+	align: center;
+	float: left;
 	border: 0;
 	height: 300px;
 	width: 300px;
-	align: center;
 }
