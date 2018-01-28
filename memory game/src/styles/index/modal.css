@@ -43,7 +43,8 @@
 	color: #333;
 }
 
-.poopup .content-info {
+.poopup .content-info1,
+.content-info2 {
 	max-height: 30%;
 	overflow: auto;
 	text-align: center;
