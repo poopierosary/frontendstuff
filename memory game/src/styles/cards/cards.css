@@ -1,0 +1,64 @@
+.deck {
+	width: 85%;
+	background: #716F71;
+	padding: 1rem;
+	border-radius: 4px;
+	box-shadow: 8px 9px 26px 0 rgba(46, 61, 73, 0.5);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	margin: 0 0 3em;
+}
+
+.deck .card {
+	height: 3.7em;
+	width: 3.7em;
+	margin: 0.2em 0.2em;
+	background: #141214;
+	font-size: 0;
+	color: #FFFFFF;
+	border-radius: 5px;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 5px 2px 20px 0 rgba(46, 61, 73, 0.5);
+}
+
+.deck .card.open {
+	transform: rotateY(0);
+	background: #02B3E4;
+	cursor: default;
+	animation-name: flipInY;
+	-webkit-backface-visibility: visible !important;
+	backface-visibility: visible !important;
+	animation-duration: .75s;
+}
+
+.deck .card.show {
+	font-size: 33px;
+}
+
+.deck .card.match {
+	cursor: default;
+	background: #E5F720;
+	font-size: 33px;
+	animation-name: rubberBand;
+	-webkit-backface-visibility: visible !important;
+	backface-visibility: visible !important;
+	animation-duration: 0.75s; 
+}
+
+.deck .card.unmatched {
+	background: #E2043B;
+	animation-name: pulse;
+	-webkit-backface-visibility: visible !important;
+	backface-visibility: visible !important;
+	animation-duration: 0.75s; 
+}
+
+.deck .card.disabled {
+	pointer-events: none;
+	opacity: 0.9;
+}
