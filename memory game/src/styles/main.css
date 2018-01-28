@@ -1,2 +1,4 @@
 @import 'index/index.css';
-@import 'cards/cards.css';
+@import 'index/cards.css';
+@import 'index/scorepanel.css';
+@import 'index/modal.css';

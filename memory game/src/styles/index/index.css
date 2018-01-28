@@ -32,3 +32,10 @@ body {
 h1 {
 	font-family: 'Gloria Hallelujah', cursive;
 }
+
+
+@media (min-width: 768px) {
+	.containter {
+		font-size: 22px;
+	}
+}
