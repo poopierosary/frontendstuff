@@ -29,6 +29,10 @@
 	padding: 4px 3px;
 }
 
+#extras a:hover  {
+	color: white;
+}
+
 #extras .blob {
 	float: left;
 	width: 615px;

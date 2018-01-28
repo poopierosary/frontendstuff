@@ -1,7 +1,7 @@
 /*Global Stlying*/
 
 body{
-	background: #F5F4EF;
+	background: #D1DEE4;
 	color: #000305;
 	font-size: 14px;
 	font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, Sans-Serif;
@@ -30,13 +30,13 @@ a img {
 }
 
 a:link, a:visited {
-	color: #C74350;
+	color: #673AB7;
 	padding: 0 1px;
 	text-decoration: underline;
 }
 
 a:hover, a:active {
-	background-color: #C74350;
+	background-color: #673AB7;
 	color: #fff;
 	text-decoration: none;
 	text-shadow: 1px 1px 1px #333;
@@ -145,7 +145,7 @@ img.left figure.left {
 
 #banner h1 a:hover, #banner h1 a:active {
 	background: none;
-	color: #C74350;
+	color: #673AB7;
 	text-shadow: none;
 }
 
@@ -157,7 +157,7 @@ img.left figure.left {
 #banner h1 ins { text-decoration: none; }
 
 #banner nav {
-	background: #000305;
+	background: #2883BF;
 	font-size: 16px;
 	height: 40px;
 	line-height: 30px;
@@ -193,7 +193,7 @@ img.left figure.left {
 
 #banner nav a:hover, #banner nav a:active,
 #banner nav .active a:link, #banner nav .active a:visited {
-	background: #C74451;
+	background: #673AB7;
 	color: #fff;
 	text-shadow: none !important;
 }

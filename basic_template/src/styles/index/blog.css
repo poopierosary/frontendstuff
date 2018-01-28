@@ -54,7 +54,7 @@ li:last-child .blog, #content > .blog {
 }
 
 #blog-list .blog:hover {
-	background: #C64350;
+	background: #673AB7;
 	color: #fff;
 }
 
