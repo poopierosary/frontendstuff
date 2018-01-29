@@ -12,9 +12,9 @@
 }
 
 .deck .card {
-	height: 3.7em;
-	width: 3.7em;
-	margin: 0.2em 0.2em;
+	height: 3.7rem;
+	width: 3.7rem;
+	margin: 0.2rem 0.2rem;
 	background: #141214;
 	font-size: 0;
 	color: #FFFFFF;
